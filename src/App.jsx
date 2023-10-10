@@ -1,11 +1,10 @@
 import './App.css'
+import { MainPage } from './page/main'
 
 function App() {
 
   return (
-    <>
-        <h1>adssadad</h1>
-    </>
+    <MainPage />
   )
 }
 
