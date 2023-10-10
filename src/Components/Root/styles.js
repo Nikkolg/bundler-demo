@@ -12,10 +12,9 @@ export const Menu = styled.div`
 export const MenuItem = styled(NavLink)`
     font-size: 24px;
     text-decoration: none;
-    color: white;
 
     &.active {
-        color: darkred;
+        color: #f55050f0;
     }
 
     &:hover {
