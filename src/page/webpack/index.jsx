@@ -12,8 +12,18 @@ export const WebpackPage = () => (
             <div>
                 <SC.TitleH3>Описание</SC.TitleH3>
                 <SC.Text>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit facere aliquam voluptates ipsum nam ea illo numquam culpa perspiciatis saepe architecto atque, qui assumenda! Repellat fugit voluptatem minus officia consectetur quasi nostrum! Quis quidem maiores distinctio odio ea sunt odit quas magni minima quia sed hic accusamus officia, suscipit aperiam inventore nulla perspiciatis nobis dolores! Ducimus aliquam soluta ipsum corporis saepe esse dolore vel beatae nemo rem dolores ipsam explicabo quaerat, quod animi quae inventore optio corrupti exercitationem eaque nulla officiis! Quam ipsam aspernatur consectetur, corporis sed corrupti eius doloribus ea quas similique rerum neque alias quis consequatur illum quae sunt id enim totam eum doloremque aperiam? Qui, vero! A esse sint veniam illum doloribus optio harum distinctio. Omnis laboriosam sit quos vel quod possimus rerum sint temporibus, iusto maxime corporis. Quo officiis rerum facilis nam incidunt molestias, voluptate possimus facere saepe, omnis reiciendis corrupti eveniet iste accusantium? Eligendi sit quos sapiente ullam, optio aliquid vero nisi modi voluptatem eum ex eius cum saepe dolorum cumque. Odit explicabo sapiente tempora ex voluptates saepe ratione illo dolorem, iusto repudiandae laboriosam! Minima omnis maiores repellat est quasi ab, laudantium fuga molestiae voluptas, cupiditate libero assumenda amet tempore magnam. Inventore nihil nesciunt suscipit.
+                    Webpack - это инструмент сборки для веб-приложений, который позволяет разработчикам эффективно управлять зависимостями, ресурсами и кодом в проектах, разрабатываемых с использованием JavaScript. Он является одним из наиболее популярных инструментов сборки в экосистеме JavaScript и широко используется для сборки современных веб-приложений.    
                 </SC.Text>
+                <SC.Text>
+                    Webpack основывается на концепции модульности, позволяя разработчикам организовывать код в небольшие, независимые модули (JavaScript, стили CSS, изображения, шрифты и другие ресурсы). Webpack анализирует зависимости между этими модулями и строит граф зависимостей.
+                </SC.Text>
+                <SC.Text>
+                    Webpack известен своей способностью "code splitting", что позволяет разбивать код на более мелкие части и загружать их по мере необходимости, улучшая производительность веб-приложения
+                </SC.Text>
+                <SC.Text>
+                    Webpack имеет широкую экосистему и активное сообщество, что делает его мощным и популярным инструментом для сборки веб-приложений. Он помогает разработчикам создавать оптимизированные и быстро работающие веб-приложения, что является ключевым аспектом успешной веб-разработки в современном мире.
+                </SC.Text>
+
             </div>
         </SC.Wrapper>
 
@@ -21,27 +31,40 @@ export const WebpackPage = () => (
             <SC.FeaturesContainer>
                 <SC.TitleH3>Плюсы</SC.TitleH3>
                 <ul>
-                    <SC.FeaturesList>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi, animi!</SC.FeaturesList>
-                    <SC.FeaturesList>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi, animi!</SC.FeaturesList>
-                    <SC.FeaturesList>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi, animi!</SC.FeaturesList>
+                    <SC.FeaturesList>Мощный и гибкий – Webpack предоставляет широкие возможности для настройки проекта, что позволяет адаптировать его под различные потребности</SC.FeaturesList>
+                    <SC.FeaturesList>Большое сообщество – Webpack обладает большим сообществом пользователей, что делает его документацию и помощь легкодоступной</SC.FeaturesList>
+                    <SC.FeaturesList>Большое количество плагинов – Существует большое количество сторонних плагинов для Webpack, что позволяет расширить его функциональность</SC.FeaturesList>
                 </ul>
             </SC.FeaturesContainer>
             <SC.FeaturesContainer>
                 <SC.TitleH3>Минусы</SC.TitleH3>
                 <ul>
-                <SC.FeaturesList>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi, animi!</SC.FeaturesList>
-                <SC.FeaturesList>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi, animi!</SC.FeaturesList>
-                <SC.FeaturesList>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi, animi!</SC.FeaturesList>
+                    <SC.FeaturesList>Долгое время сборки – для большинства проектов сборка занимает очень много времени из-за множества зависимостей</SC.FeaturesList>
+                    <SC.FeaturesList>Сложная настройка – Из-за гибкости настройка Webpack может быть очень сложной и требовательной</SC.FeaturesList>
                 </ul>
             </SC.FeaturesContainer>
         </SC.Wrapper>
 
         <SC.Wrapper>
-            <SC.TitleH3>Основные команды</SC.TitleH3>
-            <SC.FeaturesList>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae harum, veniam dignissimos esse dolorem mollitia iure odit excepturi error quasi magnam, eum, rem perspiciatis iste illum suscipit quod illo praesentium.</SC.FeaturesList>
-            <SC.FeaturesList>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae harum, veniam dignissimos esse dolorem mollitia iure odit excepturi error quasi magnam, eum, rem perspiciatis iste illum suscipit quod illo praesentium.</SC.FeaturesList>
-            <SC.FeaturesList>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae harum, veniam dignissimos esse dolorem mollitia iure odit excepturi error quasi magnam, eum, rem perspiciatis iste illum suscipit quod illo praesentium.</SC.FeaturesList>
-            <SC.FeaturesList>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae harum, veniam dignissimos esse dolorem mollitia iure odit excepturi error quasi magnam, eum, rem perspiciatis iste illum suscipit quod illo praesentium.</SC.FeaturesList>
+            <SC.TitleH3>Основные команды и файлы настройки</SC.TitleH3>
+            <SC.FeaturesList><b style={{color: '#4f87b9'}}>webpack.config.js</b> - Файл с основными настройками Webpack</SC.FeaturesList>
+            
+            <SC.FeaturesList><b style={{color: '#c35656'}}>npm i -D webpack webpack-cli</b> - Установка webpack и webpack-cli (предоставляет дополнительные возможности для работы с webpack)</SC.FeaturesList>
+            <SC.FeaturesList><b style={{color: '#c35656'}}>npx webpack init --force</b> - Инициализация нового вебпак-проекта, с автоматическим созданием всех необходимых файлов и конфигураций</SC.FeaturesList>
+            <SC.FeaturesList><b style={{color: '#c35656'}}>npx webpack serve</b> - Запустить сервер для разработки</SC.FeaturesList>
+            <SC.FeaturesList><b style={{color: '#c35656'}}>npx webpack serve</b> - Запуск Webpack</SC.FeaturesList>
+            <SC.FeaturesList><b style={{color: '#c35656'}}>webpack --mode</b> - Позволяет указать режим сборки, который может быть "development" или "production"</SC.FeaturesList>
+            <SC.FeaturesList><b style={{color: '#c35656'}}>npm i svg-inline-loader -D</b> - Установка SVG loader</SC.FeaturesList>
+            <SC.FeaturesList><b style={{color: '#c35656'}}>npm i css-loader -D</b> - Установка CSS loader</SC.FeaturesList>
+            <SC.FeaturesList><b style={{color: '#c35656'}}>npm i style-loader -D </b> - Возможность импортировать CSS файлы и включать в &lt;style&gt;</SC.FeaturesList>
+            <SC.FeaturesList><b style={{color: '#c35656'}}>npm i babel-loader -D</b> - Установка Babel</SC.FeaturesList>
+
+            <SC.FeaturesList><b style={{color: '#5da359'}}>rules: [ test: /\.svg$/, use: 'svg-inline-loader']</b> - Добавляется в webpack.config.js, для возможности использования SVG в проекте</SC.FeaturesList>
+            <SC.FeaturesList><b style={{color: '#5da359'}}>test: /\.css$/, use: 'css-loader'</b> - Добавляется в webpack.config.js, подключение CSS</SC.FeaturesList>
+            <SC.FeaturesList><b style={{color: '#5da359'}}>test: /\.css$/, use: [ 'style-loader', 'css-loader' ]</b> - Добавляется в webpack.config.js, подключение CSS</SC.FeaturesList>
+            <SC.FeaturesList><b style={{color: '#5da359'}}>test: /\.(js)$/, use: 'babel-loader'</b> - Добавляется в webpack.config.js, Подключение Babel</SC.FeaturesList>
+            <SC.FeaturesList><b style={{color: '#5da359'}}>output: path: path.resolve(__dirname, 'dist'), filename: 'index_bundle.js'</b> - Точка выхода. Название папки куда производится сборка - dist, и название файла</SC.FeaturesList>
+
         </SC.Wrapper>
 
     </Container>

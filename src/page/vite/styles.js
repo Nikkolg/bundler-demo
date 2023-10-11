@@ -33,6 +33,7 @@ export const Text = styled.p`
     font-size: 18px;
     word-wrap: break-word;
     text-align: left;
+    margin-bottom: 7px;
 `
 
 export const FeaturesContainer = styled.div`
