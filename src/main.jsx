@@ -2,15 +2,11 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import { Root } from './Components/Root'
-import { Webpack } from './Components/Webpack'
+import { WebpackPage } from './page/webpack'
+import { EsbuildPage } from './page/esbuild'
+import { VitePage } from './page/vite'
 import App from './App.jsx'
 import './index.css'
-/**
- * Главная - / - сравнение
- * Webpack - /webpack
- * Esbuild - /esbuild
- * Vite - /vite
- */
 
 const router = createBrowserRouter([
   {
@@ -23,15 +19,15 @@ const router = createBrowserRouter([
       },
       {
         path: 'webpack',
-        element: <Webpack />
+        element: <WebpackPage />
       },
       {
         path: 'esbuild',
-        element: <></>
+        element: <EsbuildPage />
       },
       {
         path: 'vite',
-        element: <></>
+        element: <VitePage />
       },
     ]
   }

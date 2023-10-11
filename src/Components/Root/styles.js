@@ -11,6 +11,7 @@ export const Menu = styled.div`
 
 export const MenuItem = styled(NavLink)`
     font-size: 24px;
+    font-weight: 700;
     text-decoration: none;
 
     &.active {

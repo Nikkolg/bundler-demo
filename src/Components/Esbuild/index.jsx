@@ -1,11 +1,11 @@
 import React from "react";
-import { WrapperCard } from "../WrapperCard"
+import { LOGO } from "../Logo";
 import * as SC from "./styles"
 
-export const Esbuild = ({logo}) => (
-    <WrapperCard>
+export const Esbuild = () => (
+    <>
         <SC.TitleH2>Esbuild</SC.TitleH2>
-        <SC.Image src={logo} />
+        <SC.Image src={LOGO.Esbuild} />
         <h3>Плюсы</h3>
         <ul>
             <li>фывфвф</li>
@@ -18,5 +18,6 @@ export const Esbuild = ({logo}) => (
             <li>фывфвф</li>
             <li>фывфвф</li>
         </ul>
-    </WrapperCard>
+        <SC.Button to={'/esbuild'}>Подробнее...</SC.Button>
+    </>
 )
