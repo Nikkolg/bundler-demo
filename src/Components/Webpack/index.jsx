@@ -1,11 +1,11 @@
 import React from "react";
-import { WrapperCard } from "../WrapperCard"
+import { LOGO } from "../Logo"
 import * as SC from "./styles"
 
-export const Webpack = ({logo}) => (
-        <WrapperCard>
+export const Webpack = () => (
+        <>
             <SC.TitleH2>Webpack</SC.TitleH2>
-            <SC.Image src={logo} />
+            <SC.Image src={LOGO.Webpack} />
             <h3>Плюсы</h3>
             <ul>
                 <li>фывфвф</li>
@@ -18,5 +18,6 @@ export const Webpack = ({logo}) => (
                 <li>фывфвф</li>
                 <li>фывфвф</li>
             </ul>
-        </WrapperCard>
+            <SC.Button to={'/webpack'}>Подробнее...</SC.Button>
+        </>
 )
