@@ -12,7 +12,13 @@ export const EsbuildPage = () => (
             <div>
                 <SC.TitleH3>Описание</SC.TitleH3>
                 <SC.Text>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit facere aliquam voluptates ipsum nam ea illo numquam culpa perspiciatis saepe architecto atque, qui assumenda! Repellat fugit voluptatem minus officia consectetur quasi nostrum! Quis quidem maiores distinctio odio ea sunt odit quas magni minima quia sed hic accusamus officia, suscipit aperiam inventore nulla perspiciatis nobis dolores! Ducimus aliquam soluta ipsum corporis saepe esse dolore vel beatae nemo rem dolores ipsam explicabo quaerat, quod animi quae inventore optio corrupti exercitationem eaque nulla officiis! Quam ipsam aspernatur consectetur, corporis sed corrupti eius doloribus ea quas similique rerum neque alias quis consequatur illum quae sunt id enim totam eum doloremque aperiam? Qui, vero! A esse sint veniam illum doloribus optio harum distinctio. Omnis laboriosam sit quos vel quod possimus rerum sint temporibus, iusto maxime corporis. Quo officiis rerum facilis nam incidunt molestias, voluptate possimus facere saepe, omnis reiciendis corrupti eveniet iste accusantium? Eligendi sit quos sapiente ullam, optio aliquid vero nisi modi voluptatem eum ex eius cum saepe dolorum cumque. Odit explicabo sapiente tempora ex voluptates saepe ratione illo dolorem, iusto repudiandae laboriosam! Minima omnis maiores repellat est quasi ab, laudantium fuga molestiae voluptas, cupiditate libero assumenda amet tempore magnam. Inventore nihil nesciunt suscipit.
+                    Esbuild - это современный и высокопроизводительный сборщик JavaScript и CSS. Его главное преимущество заключается в потрясающей скорости компиляции благодаря использованию языка Go, что делает процесс сборки практически мгновенным. Esbuild поддерживает самые актуальные стандарты JavaScript, включая ES6 и более новые версии, обеспечивая минификацию и оптимизацию кода без потери качества. С этим сборщиком также можно использовать разнообразные плагины для интеграции с другими инструментами.                
+                </SC.Text>
+                <SC.Text>
+                    Esbuild также предоставляет мощные функции, такие как динамический импорт и поддержку разделения кода. С его интуитивным интерфейсом разработчики могут легко интегрировать его в свои процессы сборки и автоматизации, что способствует улучшению производительности и сокращению времени разработки.
+                </SC.Text>
+                <SC.Text>
+                    Esbuild активно поддерживается сообществом и регулярно обновляется, чтобы соответствовать последним требованиям и стандартам веб-разработки.
                 </SC.Text>
             </div>
         </SC.Wrapper>
@@ -21,27 +27,30 @@ export const EsbuildPage = () => (
             <SC.FeaturesContainer>
                 <SC.TitleH3>Плюсы</SC.TitleH3>
                 <ul>
-                    <SC.FeaturesList>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi, animi!</SC.FeaturesList>
-                    <SC.FeaturesList>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi, animi!</SC.FeaturesList>
-                    <SC.FeaturesList>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi, animi!</SC.FeaturesList>
+                    <SC.FeaturesList>Быстрое время сборки – Esbuild один из самых быстрых сборщиков, благодаря компиляции на Go</SC.FeaturesList>
+                    <SC.FeaturesList>Легкая настройка – конфигурация Esbuild кратка и легка для понимания</SC.FeaturesList>
+                    <SC.FeaturesList>Минимум зависимостей  - Esbuild имеет небольшое количество зависимостей, что делает его легким и быстрым в установке</SC.FeaturesList>
                 </ul>
             </SC.FeaturesContainer>
             <SC.FeaturesContainer>
                 <SC.TitleH3>Минусы</SC.TitleH3>
                 <ul>
-                <SC.FeaturesList>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi, animi!</SC.FeaturesList>
-                <SC.FeaturesList>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi, animi!</SC.FeaturesList>
-                <SC.FeaturesList>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi, animi!</SC.FeaturesList>
+                    <SC.FeaturesList>Меньшая функциональность – Esbuild может быть ограничен в некоторых аспектах, таких как обработка изображений или оптимизация файлов, по сравнению с более мощными сборщиками</SC.FeaturesList>
+                    <SC.FeaturesList>Менее расширяемый – Esbuild имеет меньше плагинов и пакетов для расширения функциональности, по сравнению с аналогами</SC.FeaturesList>
                 </ul>
             </SC.FeaturesContainer>
         </SC.Wrapper>
 
         <SC.Wrapper>
             <SC.TitleH3>Основные команды</SC.TitleH3>
-            <SC.FeaturesList>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae harum, veniam dignissimos esse dolorem mollitia iure odit excepturi error quasi magnam, eum, rem perspiciatis iste illum suscipit quod illo praesentium.</SC.FeaturesList>
-            <SC.FeaturesList>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae harum, veniam dignissimos esse dolorem mollitia iure odit excepturi error quasi magnam, eum, rem perspiciatis iste illum suscipit quod illo praesentium.</SC.FeaturesList>
-            <SC.FeaturesList>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae harum, veniam dignissimos esse dolorem mollitia iure odit excepturi error quasi magnam, eum, rem perspiciatis iste illum suscipit quod illo praesentium.</SC.FeaturesList>
-            <SC.FeaturesList>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae harum, veniam dignissimos esse dolorem mollitia iure odit excepturi error quasi magnam, eum, rem perspiciatis iste illum suscipit quod illo praesentium.</SC.FeaturesList>
+            <SC.FeaturesList><b style={{color: '#4f87b9'}}>esbuild.config.js</b> - Файл с основными настройками Esbuild</SC.FeaturesList>
+
+            <SC.FeaturesList><b style={{color: '#c35656'}}>npm init –y</b> - Создание NodeJs project</SC.FeaturesList>
+            <SC.FeaturesList><b style={{color: '#c35656'}}>npm install esbuild</b> - Установка</SC.FeaturesList>
+            <SC.FeaturesList><b style={{color: '#c35656'}}>npm install esbuild</b> - Добавление React и react-dom в проект</SC.FeaturesList>
+            <SC.FeaturesList><b style={{color: '#c35656'}}>./node_modules/.bin/esbuild app.jsx — bundle — outfile=bundle.js</b> - Связать приложение с помощью Esbuild. Объедиие приложения в файлы bundle.js </SC.FeaturesList>
+            <SC.FeaturesList><b style={{color: '#c35656'}}>node esbuild.config.js</b> - Запустить файл конфигурации Esbuild</SC.FeaturesList>
+            <SC.FeaturesList><b style={{color: '#c35656'}}>npx lite-server</b> - Запустить веб-сервер</SC.FeaturesList>
         </SC.Wrapper>
 
     </Container>

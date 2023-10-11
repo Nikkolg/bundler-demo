@@ -12,7 +12,13 @@ export const VitePage = () => (
             <div>
                 <SC.TitleH3>Описание</SC.TitleH3>
                 <SC.Text>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit facere aliquam voluptates ipsum nam ea illo numquam culpa perspiciatis saepe architecto atque, qui assumenda! Repellat fugit voluptatem minus officia consectetur quasi nostrum! Quis quidem maiores distinctio odio ea sunt odit quas magni minima quia sed hic accusamus officia, suscipit aperiam inventore nulla perspiciatis nobis dolores! Ducimus aliquam soluta ipsum corporis saepe esse dolore vel beatae nemo rem dolores ipsam explicabo quaerat, quod animi quae inventore optio corrupti exercitationem eaque nulla officiis! Quam ipsam aspernatur consectetur, corporis sed corrupti eius doloribus ea quas similique rerum neque alias quis consequatur illum quae sunt id enim totam eum doloremque aperiam? Qui, vero! A esse sint veniam illum doloribus optio harum distinctio. Omnis laboriosam sit quos vel quod possimus rerum sint temporibus, iusto maxime corporis. Quo officiis rerum facilis nam incidunt molestias, voluptate possimus facere saepe, omnis reiciendis corrupti eveniet iste accusantium? Eligendi sit quos sapiente ullam, optio aliquid vero nisi modi voluptatem eum ex eius cum saepe dolorum cumque. Odit explicabo sapiente tempora ex voluptates saepe ratione illo dolorem, iusto repudiandae laboriosam! Minima omnis maiores repellat est quasi ab, laudantium fuga molestiae voluptas, cupiditate libero assumenda amet tempore magnam. Inventore nihil nesciunt suscipit.
+                    Vite - это инновационный сборщик JavaScript и TypeScript, предназначенный для разработки современных веб-приложений. Он отличается невероятной скоростью и молниеносной пересборкой благодаря своей архитектуре, основанной на ES-модулях. Vite разделяет код на мелкие модули, что позволяет быстро реагировать на изменения и ускоряет разработку. Сборка происходит на лету, без необходимости предварительной компиляции, что делает разработку более эффективной                
+                </SC.Text>
+                <SC.Text>
+                    Vite поддерживает горячую перезагрузку, что упрощает отладку и тестирование. Имеет простую конфигурацию и интеграцию с различными фреймворками, такими как Vue.js и React.
+                </SC.Text>
+                <SC.Text>
+                    Vite предоставляет разработчикам богатый экосистемный набор инструментов, включая поддержку современных JavaScript и TypeScript, а также плагины для обработки файлов, оптимизации ресурсов и дополнительных возможностей. Он также поддерживает сборку для различных сред, включая браузеры и Node.js, и обеспечивает гибкую настройку с помощью конфигурационных файлов. Vite интегрируется с популярными фреймворками, что делает его универсальным инструментом для разработчиков, ищущих эффективное и производительное решение в веб-разработке.
                 </SC.Text>
             </div>
         </SC.Wrapper>
@@ -21,27 +27,27 @@ export const VitePage = () => (
             <SC.FeaturesContainer>
                 <SC.TitleH3>Плюсы</SC.TitleH3>
                 <ul>
-                    <SC.FeaturesList>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi, animi!</SC.FeaturesList>
-                    <SC.FeaturesList>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi, animi!</SC.FeaturesList>
-                    <SC.FeaturesList>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi, animi!</SC.FeaturesList>
+                    <SC.FeaturesList>Быстрая сборка – Благодаря использованию ESM производится быстрая загрузка модулей в браузере и улучшает производительность</SC.FeaturesList>
+                    <SC.FeaturesList>Легкая настройка – Конфигурация Vite кратка и легка для понимания</SC.FeaturesList>
+                    <SC.FeaturesList>Поддержка плагинов – благодаря поддержки плагинов, Vite становится более гибким для расширения</SC.FeaturesList>
+                    <SC.FeaturesList>Поддержка для фреймворков – Vite предоставляет интеграцию с популярными фреймворками (встроенная конфигурация, быстрая горячая перезагрузка, минимальные зависимости)</SC.FeaturesList>
                 </ul>
             </SC.FeaturesContainer>
             <SC.FeaturesContainer>
                 <SC.TitleH3>Минусы</SC.TitleH3>
                 <ul>
-                <SC.FeaturesList>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi, animi!</SC.FeaturesList>
-                <SC.FeaturesList>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi, animi!</SC.FeaturesList>
-                <SC.FeaturesList>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi, animi!</SC.FeaturesList>
+                <SC.FeaturesList>Менее расширяемый – Выбор плагинов для Vite может быть ограничен, по сравнению с другими сборщиками</SC.FeaturesList>
+                <SC.FeaturesList>Ограниченное сообщество – Меньшее сообещство, по сравнению с Webpack, что может повлиять на доступность ресурсов и поддержку</SC.FeaturesList>
                 </ul>
             </SC.FeaturesContainer>
         </SC.Wrapper>
 
         <SC.Wrapper>
             <SC.TitleH3>Основные команды</SC.TitleH3>
-            <SC.FeaturesList>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae harum, veniam dignissimos esse dolorem mollitia iure odit excepturi error quasi magnam, eum, rem perspiciatis iste illum suscipit quod illo praesentium.</SC.FeaturesList>
-            <SC.FeaturesList>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae harum, veniam dignissimos esse dolorem mollitia iure odit excepturi error quasi magnam, eum, rem perspiciatis iste illum suscipit quod illo praesentium.</SC.FeaturesList>
-            <SC.FeaturesList>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae harum, veniam dignissimos esse dolorem mollitia iure odit excepturi error quasi magnam, eum, rem perspiciatis iste illum suscipit quod illo praesentium.</SC.FeaturesList>
-            <SC.FeaturesList>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae harum, veniam dignissimos esse dolorem mollitia iure odit excepturi error quasi magnam, eum, rem perspiciatis iste illum suscipit quod illo praesentium.</SC.FeaturesList>
+            <SC.FeaturesList><b style={{color: '#4f87b9'}}>vite.config.js</b> - Файл с основными настройками Vite</SC.FeaturesList>
+            <SC.FeaturesList><b style={{color: '#c35656'}}>npm create vite@latest</b> - Создание проекта, используя Vite</SC.FeaturesList>
+            <SC.FeaturesList><b style={{color: '#c35656'}}>npm run dev</b> - Запустить сервер</SC.FeaturesList>
+            <SC.FeaturesList><b style={{color: '#c35656'}}>npm run build</b> - Собрать проект</SC.FeaturesList>
         </SC.Wrapper>
 
     </Container>
